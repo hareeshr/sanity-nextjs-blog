@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Sanity Next.js Blog
 
-First, run the development server:
+## Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+- [Overview](#overview)
+- [Built With](#built-with)
+- [Features](#features)
+- [Prerequisites](#prerequisites)
+- [Deploy](#deploy)
+- [Run Locally](#run-locally)
+- [Contact](#contact)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Overview
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+This project is a minimalist blog developed using Next.js, a popular React framework, on the frontend, and Sanity, a headless CMS, on the backend. The blog is designed with simplicity in mind, offering a clean and intuitive user interface. It incorporates essential features such as user authentication, responsive design for optimal viewing across devices, and a commenting system to foster engagement. Next.js enables server-side rendering and efficient routing, while Sanity provides a flexible content management system to manage blog posts and content. With a focus on user experience and ease of customization, this blog project serves as a versatile foundation for individuals looking to create their own minimalist blogs. Thank you for checking out the Sanity Next.js Blog Project!
 
-[http://localhost:3000/api/hello](http://localhost:3000/api/hello) is an endpoint that uses [Route Handlers](https://beta.nextjs.org/docs/routing/route-handlers). This endpoint can be edited in `app/api/hello/route.ts`.
+[Demo Link](https://ai-blog.hareeshr.me/)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Built With
 
-## Learn More
+ - [Sanity](https://www.sanity.io/)
+ - [Next.js](https://nextjs.org/)
+ - [React.js](https://react.dev/)
+ - [Typescript](https://www.typescriptlang.org/)
+ - [Node.js](https://nodejs.org/)
+ - [Tailwind CSS](https://tailwindcss.com/)
 
-To learn more about Next.js, take a look at the following resources:
+## Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+ - Minimalist design for a clean and intuitive user experience.
+ - Markdown support for easy formatting of blog content.
+ - User authentication to allow registered users to create and manage blog posts.
+ - Tagging and categorization of blog posts for easy organization and navigation.
+ - Markdown editor with live preview for a seamless writing and editing experience.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Prerequisites
 
-## Deploy on Vercel
+ - Get your Project ID, dataset and version from [here](https://www.sanity.io/manage/).
+ - Git -  [Download & Install Git](https://git-scm.com/downloads) for Windows users. (OSX and Linux machines has it preinstalled).
+ - Node.js -  [Download & Install Node.js](https://nodejs.org/en/download/).
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Deploy
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+**Vercel**
+Host your own live version of Chatbot UI with Vercel.
+
+[![Deploy with Vercel](https://vercel.com/button)]()
+    
+## Run Locally
+**1. Clone Repo**
+
+**2. Install Dependencies**
+
+    npm i
+**3. Provide API Key**
+Create a .env.local file in the root of the repo with your configuration and API Keys:
+
+    NEXT_PUBLIC_SANITY_PROJECT_ID=YOUR_SANITY_PROJECT_ID
+    NEXT_PUBLIC_SANITY_DATASET=YOUR_SANITY_DATASET
+    NEXT_PUBLIC_SANITY_API_VERSION=YOUR_SANITY_API_VERSION
+**4. Run App**
+
+    npm run dev
+    
+**5. Happy chatting**
+You can now publish your blog posts using your domain/studio and your posts will be visible on home page.
+
+## Contact
+
+If you have any questions, feel free to reach out to me on [hareeshr.me](https://hareeshr.me)
