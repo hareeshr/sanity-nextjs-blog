@@ -43,7 +43,7 @@ This project is a minimalist blog developed using Next.js, a popular React frame
 ## Deploy
 
 **Vercel**
-Host your own live version of Chatbot UI with Vercel.
+Host your own live version of Blog with Vercel.
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fhareeshr%2Fsanity-nextjs-blog&env=NEXT_PUBLIC_SANITY_PROJECT_ID,NEXT_PUBLIC_SANITY_DATASET,NEXT_PUBLIC_SANITY_API_VERSION&project-name=blog)
     
@@ -63,7 +63,7 @@ Create a .env.local file in the root of the repo with your configuration and API
 
     npm run dev
     
-**5. Happy chatting**
+**5. Happy blogging**
 You can now publish your blog posts using your domain/studio and your posts will be visible on home page.
 
 ## Contact
